@@ -162,7 +162,7 @@ public class InsertProductServletx extends HttpServlet {
         }
         Image image = ImageGet.getImageById(nameFile);
        // http://localhost:8080/GetImage
-        String link =Constants.LINK_ROOT+"/GetImage?id="+image.getImage_Id();
+        String link = Constants.LINK_ROOT+"/GetImage?id="+image.getImage_Id();
         return link;
     }
 

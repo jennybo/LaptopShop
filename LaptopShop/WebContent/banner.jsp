@@ -1,4 +1,10 @@
 
+<%@page import="model.Category"%>
+<%@page import="model.Brand"%>
+
+<%@page import="adapter.Constants"%>
+<%@page import="get.BrandGet"%>
+<%@page import="get.CategoryGet"%>
 <%@page import="java.text.DecimalFormat"%>
 <%@page import="java.text.DecimalFormat"%>
 <%@page import="model.Product"%>
@@ -12,6 +18,8 @@
     </head>
     <body>
         <% 
+        CategoryGet categoryget = new CategoryGet();
+        BrandGet brandget = new BrandGet();
        ProductGet productGet = new ProductGet();     
     String category_id_1 = "1";
     String category_id_2 = "2";

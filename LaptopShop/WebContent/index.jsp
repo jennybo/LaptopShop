@@ -14,20 +14,20 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
 		function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- //for-mobile-apps -->
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="http://localhost:8080/LaptopShop/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="http://localhost:8080/LaptopShop/css/style.css" rel="stylesheet" type="text/css" media="all" />
 <!-- js -->
-<script src="js/jquery.min.js"></script>
+<script src="http://localhost:8080/LaptopShop/js/jquery.min.js"></script>
 <!-- //js -->
 <!-- cart -->
-<script src="js/simpleCart.min.js"></script>
+<script src="http://localhost:8080/LaptopShop/js/simpleCart.min.js"></script>
 <!-- cart -->
 <!-- for bootstrap working -->
-<script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
+<script type="text/javascript" src="http://localhost:8080/LaptopShop/js/bootstrap-3.1.1.min.js"></script>
 <!-- //for bootstrap working -->
 <!-- animation-effect -->
-<link href="css/animate.min.css" rel="stylesheet"> 
-<script src="js/wow.min.js"></script>
+<link href="http://localhost:8080/LaptopShop/css/animate.min.css" rel="stylesheet"> 
+<script src="http://localhost:8080/LaptopShop/js/wow.min.js"></script>
 <script>
  new WOW().init();
 </script>
