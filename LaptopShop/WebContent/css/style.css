@@ -35,7 +35,7 @@ ul,label{
 	-*/
 }
 .logo-nav{
-	padding:1em 0;
+	padding: 0 0 0 0;
 }
 .header-left{
 	float:left;
@@ -357,6 +357,7 @@ ul li {
     background:  url(../images/banner.jpg) no-repeat;
 	width:100%;
 	background-size:cover;
+ 	margin-top: -20px;
 }
 .ba-price{
 	line-height:1.3em ;
@@ -2459,3 +2460,4 @@ td.add-check a {
     margin-right: 3px;
 }
 }
+

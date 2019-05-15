@@ -10,7 +10,7 @@ package adapter;
  * @author jenny
  */
 public class Constants {
-    public static String  NAME_WEBSITE ="LaptopShop";
+    public static String  NAME_WEBSITE ="Jebo";
     public static String LINK_ROOT ="/LaptopShop";
     public static String NUMBER_PHONE = "";
     public static String MAIL_CONTACS="";

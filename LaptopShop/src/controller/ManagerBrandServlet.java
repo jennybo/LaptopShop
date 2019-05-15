@@ -72,7 +72,7 @@ public class ManagerBrandServlet extends HttpServlet {
                     case "update":
                         long maThuongHieu = Long.parseLong(request.getParameter("maThuongHieu"));
                         brandDAO.updateBrand(new Brand(maThuongHieu, tenThuongHieu));
-                        url =Constants.LINK_ROOT+"/admin/manager_brand.jsp";
+                        url ="/admin/manager_brand.jsp";
                         break;
                 }
             } else {
